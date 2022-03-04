@@ -1,16 +1,19 @@
 {
 	"name": "node-mongo",
 	"version": "1.0.0",
-	"description": "CRUD",
+	"description": "mongodb official nodejs api v. mongoose examples - you be the judge...",
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"start": "nodemon index.js"
+		"start": "echo 'this is the mongodbapi example' && node index.js",
+		"mongodbapi": "echo 'this is the mongodbapi example' &&nodemon mongodbapi-example.js",
+		"mongoose": "echo 'this is the mongoose example' &&nodemon mongoose-example.js"
 	},
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
-		"mongodb": "~3.6.12"
+		"mongodb": "~3.6.12",
+		"mongoose": "~5.10.19"
 	}
 }
